@@ -132,6 +132,7 @@ table {
 
 * {
   font-family: "Press Start 2P", cursive;
+  cursor: url("../assets/mouse.png"), auto;
 }
 
 body {
