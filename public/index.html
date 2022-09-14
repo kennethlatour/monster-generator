@@ -55,6 +55,8 @@
       }
       function trail() { // trailing function
         for (i = 0; i < images.length; i++) { // for every div/layer
+          document.getElementById("obj" + i).style.pointerEvents = "none";
+
           document.getElementById("obj" + i).style.top = storage[d]+'px' // the Y-coordinate
           document.getElementById("obj" + i).style.left = + storage[d+1]+'px' // the X-coordinate
           d = d+2
