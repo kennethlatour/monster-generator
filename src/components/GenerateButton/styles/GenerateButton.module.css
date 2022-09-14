@@ -4,6 +4,7 @@
 
   background: transparent;
   border: white 5px solid;
+  outline: black 8px solid;
   color: white;
 
   transition: ease-out 0.1s;
