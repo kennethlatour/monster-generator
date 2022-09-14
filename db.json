@@ -3,39 +3,40 @@
     {
       "id": 1,
       "name": "BoogieG",
-      "image": "https://img.favpng.com/22/17/20/pixel-art-portable-network-graphics-monster-png-favpng-GAh0NkyUd839jP0evn5zduq7e.jpg"
+      "image": "https://img.favpng.com/22/17/20/pixel-art-portable-network-graphics-monster-png-favpng-GAh0NkyUd839jP0evn5zduq7e.jpg",
+      "docile": true
     },
     {
       "id": 2,
       "name": "Eyec",
-      "image": "https://o.dlf.pt/dfpng/smallpng/62-626714_minecraft-pixel-art-deadpool-logo-hd-png-download.png"
+      "image": "https://o.dlf.pt/dfpng/smallpng/62-626714_minecraft-pixel-art-deadpool-logo-hd-png-download.png",
+      "docile": true
     },
     {
       "id": 3,
       "name": "Supreme Eye",
-      "image": "https://www.pikpng.com/pngl/m/494-4946728_septiceye-eye-of-cthulhu-septic-sam-pixel-art.png"
+      "image": "https://www.pikpng.com/pngl/m/494-4946728_septiceye-eye-of-cthulhu-septic-sam-pixel-art.png",
+      "docile": true
     },
     {
       "id": 4,
       "name": "Blob Metrix",
-      "image": "https://www.pikpng.com/pngl/m/552-5526441_bit-monster-8-bit-png-clipart.png"
+      "image": "https://www.pikpng.com/pngl/m/552-5526441_bit-monster-8-bit-png-clipart.png",
+      "docile": true
     },
     {
       "id": 5,
       "name": "Eagle View",
-      "image": "https://spng.pngfind.com/pngs/s/413-4136209_latias-latias-pixel-art-hd-png-download.png"
+      "image": "https://spng.pngfind.com/pngs/s/413-4136209_latias-latias-pixel-art-hd-png-download.png",
+      "docile": true
     }
   ],
   "Colony": [
     {
-      "id": 4,
-      "name": "Blob Metrix",
-      "image": "https://www.pikpng.com/pngl/m/552-5526441_bit-monster-8-bit-png-clipart.png"
-    },
-    {
-      "id": 5,
-      "name": "Eagle View",
-      "image": "https://spng.pngfind.com/pngs/s/413-4136209_latias-latias-pixel-art-hd-png-download.png"
+      "name": "Supreme Eye",
+      "image": "https://www.pikpng.com/pngl/m/494-4946728_septiceye-eye-of-cthulhu-septic-sam-pixel-art.png",
+      "id": 2,
+      "docile": true
     }
   ]
 }

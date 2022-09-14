@@ -52,7 +52,9 @@ function App() {
       body: JSON.stringify(newMonster),
     }).then(setColony([...colony, newMonster]))
   }
-    function exile (exileMonster) {
+  
+  
+   function exile (exileMonster) {
     fetch(`http://localhost:3000/Colony/${exileMonster}`, {
       method: 'delete',
       headers: {
@@ -60,6 +62,7 @@ function App() {
       }
     })
   }
+
   return (
     <div className="container">
       
