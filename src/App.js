@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import PlanetCollection from "./components/PlanetCollection";
+import React, { useState, useEffect} from "react";
+import About from "./components/About.js"
 import Navbar from "./components/Navbar";
 import Monster from "./components/Monster";
 import MonsterColony from "./components/MonsterColony";
 import GenerateButton from "./components/GenerateButton";
-
+import {Switch, Route, useHistory} from "react-router-dom";
 import "./styles/global.css";
 
 function App() {
@@ -65,12 +65,21 @@ function App() {
 
   return (
     <div className="container">
-      
-      <Monster monster={monster} colonyPost = {colonyPost} />
-      <PlanetCollection />
       <Navbar />
+      <Switch>
+     
+        <Route exact path = "/monster">
+      <Monster monster={monster} colonyPost = {colonyPost} />
       <GenerateButton setRandomNumber={setRandomNumber} />
+       </ Route>
+       <Route exact path = "/colony">
       <MonsterColony colony = {colony} exile = {exile} />
+      </Route>
+       <Route exact path = "/about">
+       <About />
+       </Route>
+      
+      </Switch>
     </div>
   );
 }

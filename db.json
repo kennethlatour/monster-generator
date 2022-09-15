@@ -33,10 +33,16 @@
   ],
   "Colony": [
     {
-      "name": "Supreme Eye",
-      "image": "https://www.pikpng.com/pngl/m/494-4946728_septiceye-eye-of-cthulhu-septic-sam-pixel-art.png",
-      "id": 2,
-      "docile": true
+      "name": "Blob Metrix",
+      "image": "https://www.pikpng.com/pngl/m/552-5526441_bit-monster-8-bit-png-clipart.png",
+      "docile": true,
+      "id": 3
+    },
+    {
+      "name": "Eagle View",
+      "image": "https://spng.pngfind.com/pngs/s/413-4136209_latias-latias-pixel-art-hd-png-download.png",
+      "docile": true,
+      "id": 4
     }
   ]
 }
