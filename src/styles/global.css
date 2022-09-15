@@ -150,6 +150,8 @@ body {
   animation-timing-function: linear;
   overflow: hidden;
   font-family: "Press Start 2P", cursive;
+
+  overflow-x: hidden;
 }
 
 @keyframes scroll {
