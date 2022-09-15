@@ -14,18 +14,16 @@
   margin-top: 30vh;
 } */
 
-
-
 img {
-  max-width: 100%;
+  max-width: 500px;
   height: auto;
 }
 
 .monsterimg {
-  width: 120px;
-  min-height: 120px;
-  max-height: auto;
+  width: 350px;
+  height: 350px;
   float: left;
   margin: 3px;
   padding: 3px;
+  object-fit: contain;
 }
