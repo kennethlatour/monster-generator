@@ -2,8 +2,6 @@ import React, {useState} from "react";
 
 function MyMonster({monster, exile }) {
   
-    // const [kidAmount, setKidAmount] = useState(monster.children)
-
 
     function handleClick () {
         window.location.reload()
