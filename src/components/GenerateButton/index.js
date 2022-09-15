@@ -5,7 +5,7 @@ import styles from "./styles/GenerateButton.module.css";
 
 const GenerateButton = ({ setRandomNumber }) => {
   function handleClick(e) {
-    setRandomNumber(getRandomInt(1, 2147483647));
+    setRandomNumber(getRandomInt(1, 5));
   }
 
   return (
