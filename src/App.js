@@ -6,29 +6,11 @@ import MonsterColony from "./components/MonsterColony";
 import GenerateButton from "./components/GenerateButton";
 import { Switch, Route, useHistory } from "react-router-dom";
 import "./styles/global.css";
-import { mouseTrail } from "./utils/mouseTrail.js";
 
 function App() {
   const [monster, setMonster] = useState([]);
   const [randomNumber, setRandomNumber] = useState(1);
   const [colony, setColony] = useState([]);
-  // useEffect(() => {
-  //   fetch("https://course-search-proxy.herokuapp.com/", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //       Accept: "application/json",
-  //     },
-  //     body: JSON.stringify({
-  //       urlToGet: `https://app.pixelencounter.com/api/basic/monsters/${randomNumber}/?size=200`,
-  //     }),
-  //   })
-  //     .then((res) => res.text())
-  //     .then((data) => {
-  //       setMonster(data);
-  //     })
-  //     .catch(console.error);
-  // }, [randomNumber]);
 
   useEffect(() => {
     fetch(`http://localhost:8000/monsters/${randomNumber}`)
