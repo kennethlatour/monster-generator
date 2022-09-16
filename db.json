@@ -3,40 +3,106 @@
     {
       "id": 1,
       "name": "The Big Guy",
-      "image": "https://img.favpng.com/22/17/20/pixel-art-portable-network-graphics-monster-png-favpng-GAh0NkyUd839jP0evn5zduq7e.jpg",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster1.png?raw=true",
       "docile": true
     },
     {
       "id": 2,
-      "name": "Eyec",
-      "image": "https://o.dlf.pt/dfpng/smallpng/62-626714_minecraft-pixel-art-deadpool-logo-hd-png-download.png",
+      "name": "Blob Monster",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster2.png?raw=true",
       "docile": true
     },
     {
       "id": 3,
-      "name": "Supreme Eye",
-      "image": "https://www.pikpng.com/pngl/m/494-4946728_septiceye-eye-of-cthulhu-septic-sam-pixel-art.png",
+      "name": "Demon Alien",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster3.png?raw=true",
       "docile": true
     },
     {
       "id": 4,
-      "name": "Blob Metrix",
-      "image": "https://www.pikpng.com/pngl/m/552-5526441_bit-monster-8-bit-png-clipart.png",
+      "name": "Eye Beholder",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster7.png?raw=true",
       "docile": true
     },
     {
       "id": 5,
-      "name": "Eagle View",
-      "image": "https://spng.pngfind.com/pngs/s/413-4136209_latias-latias-pixel-art-hd-png-download.png",
+      "name": "Purple Entity",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster4.png?raw=true",
+      "docile": true
+    },
+    {
+      "id": 6,
+      "name": "Ghostly Figure",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster5.png?raw=true",
+      "docile": true
+    },
+    {
+      "id": 7,
+      "name": "Rainbow Brain",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster8.png?raw=true",
+      "docile": true
+    },
+    {
+      "id": 8,
+      "name": "Cactus Overload",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster9.png?raw=true",
+      "docile": true
+    },
+    {
+      "id": 9,
+      "name": "The Overlord",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster10.png?raw=true",
+      "docile": true
+    },
+    {
+      "id": 10,
+      "name": "Definitely Not Gengar",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster11.png?raw=true",
+      "docile": true
+    },
+    {
+      "id": 11,
+      "name": "Peachy Princess",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster12.png?raw=true",
+      "docile": true
+    },
+    {
+      "id": 12,
+      "name": "Rayquazanot",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster14.png?raw=true",
+      "docile": true
+    },
+    {
+      "id": 13,
+      "name": "Tototototo",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster15.png?raw=true",
       "docile": true
     }
   ],
   "Colony": [
     {
-      "name": "Blob Metrix",
-      "image": "https://www.pikpng.com/pngl/m/552-5526441_bit-monster-8-bit-png-clipart.png",
+      "name": "The Big Guy",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster1.png?raw=true",
+      "docile": false,
+      "id": 1
+    },
+    {
+      "name": "Rainbow Brain",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster8.png?raw=true",
+      "docile": true,
+      "id": 5
+    },
+    {
+      "name": "Blob Monster",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster2.png?raw=true",
       "docile": true,
       "id": 6
+    },
+    {
+      "name": "The Big Guy",
+      "image": "https://github.com/luciannt/monster-generator/blob/luciannt/src/assets/monster1.png?raw=true",
+      "docile": true,
+      "id": 7
     }
   ]
 }

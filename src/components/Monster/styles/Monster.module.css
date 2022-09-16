@@ -27,3 +27,31 @@ img {
   padding: 3px;
   object-fit: contain;
 }
+
+.colonyBtn {
+  border: solid;
+  border-color: white;
+  justify-content: center;
+  border-width: 5px;
+  gap: 25px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 0px;
+  transition: ease-out 0.1s;
+  outline: black 8px solid;
+}
+
+.colonyBtn img {
+  height: 35px;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.colonyBtn:hover {
+  background: white;
+  color: black;
+}

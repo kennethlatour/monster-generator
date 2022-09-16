@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import About from "./components/About.js";
+import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Monster from "./components/Monster";
 import MonsterColony from "./components/MonsterColony";

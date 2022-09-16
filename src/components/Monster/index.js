@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import planet from "../../assets/planetIcon2.png";
 import styles from "./styles/Monster.module.css";
 
 function Monster({ monster, colonyPost }) {
@@ -14,10 +14,12 @@ function Monster({ monster, colonyPost }) {
   }
   return (
     <div className={styles["monster-container"]}>
-      {/* // dangerouslySetInnerHTML={{ __html: monster }} */}
       <img className={styles.monsterimg} src={monster.image} />
       <p>
-        <button onClick={handleClick}> Add To Colony</button>
+        <button className={styles.colonyBtn} onClick={handleClick}>
+          {" "}
+          Add To Colony <img src={planet} />
+        </button>
       </p>
     </div>
   );

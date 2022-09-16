@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./styles/MyMonster.module.css";
 
 function MyMonster({ monster, exile }) {
   function handleClick() {
@@ -6,20 +7,7 @@ function MyMonster({ monster, exile }) {
     const exileMonster = monster.id;
     exile(exileMonster);
   }
-  //   function updateKids (){
-  //     let newCount = parseInt(setKidAmount(kidAmount + 1))
-  //     const newAmount = {"children": newCount}
 
-  //          fetch(`http://localhost:8000/Colony/${monster.id}`, {
-  //            method: 'PATCH',
-  //            headers: {
-  //              'Content-Type': 'application/json',
-  //            },
-  //            body: JSON.stringify(newAmount),
-  //          })
-  //             // .then(res => res.json())
-  //             // .then(data => updateColonyAmount(data))
-  //        }
   const [stateDocile, setDocile] = useState(!monster.docile);
 
   function docile() {
@@ -40,15 +28,11 @@ function MyMonster({ monster, exile }) {
   }
 
   return (
-    <div>
-      <div className="image">
-        <img src={monster.image} />
-      </div>
-      <div> {monster.name}</div>
-      <div> </div>
-      <div>
+    <div className={styles.container}>
+      <img src={monster.image} />
+      <div className={styles.info}>
+        <p>{monster.name}</p>
         <button onClick={docile}>
-          {" "}
           {stateDocile ? "Docile" : "Aggressive"}{" "}
         </button>
         <button onClick={handleClick}> Exile </button>
