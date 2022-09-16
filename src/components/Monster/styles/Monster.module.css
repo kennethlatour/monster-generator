@@ -14,18 +14,44 @@
   margin-top: 30vh;
 } */
 
-
-
 img {
-  max-width: 100%;
+  max-width: 500px;
   height: auto;
 }
 
 .monsterimg {
-  width: 120px;
-  min-height: 120px;
-  max-height: auto;
+  width: 350px;
+  height: 350px;
   float: left;
   margin: 3px;
   padding: 3px;
+  object-fit: contain;
+}
+
+.colonyBtn {
+  border: solid;
+  border-color: white;
+  justify-content: center;
+  border-width: 5px;
+  gap: 25px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 0px;
+  transition: ease-out 0.1s;
+  outline: black 8px solid;
+}
+
+.colonyBtn img {
+  height: 35px;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.colonyBtn:hover {
+  background: white;
+  color: black;
 }

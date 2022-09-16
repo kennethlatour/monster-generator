@@ -1,26 +1,33 @@
-import React, {useState} from "react";
-
+import React, { useState } from "react";
+import planet from "../../assets/planetIcon2.png";
+import { Modal } from "../Modal";
 import styles from "./styles/Monster.module.css";
 
 function Monster({ monster, colonyPost }) {
-  
-  function handleClick () {
+  const [showModal, setShowModal] = useState(false);
+  function handleClick() {
     const monsterobj = {
       name: monster.name,
       image: monster.image,
-      docile: monster.docile
-    }
-    
-    colonyPost(monsterobj)
+      docile: monster.docile,
+    };
+
+    colonyPost(monsterobj);
+    setShowModal(true);
   }
+
   return (
-    <div className={styles["monster-container"]} >
-      {/* // dangerouslySetInnerHTML={{ __html: monster }} */}
-     <img src = {monster.image} /> 
-     <p>
-      <button onClick = {handleClick}> Add To Colony</button>
-    </p>
-      </div>
+    <div className={styles["monster-container"]}>
+      <Modal onComplete={() => setShowModal(false)} visible={showModal}>
+        Monster Added
+      </Modal>
+      <img className={styles.monsterimg} src={monster.image} />
+      <p>
+        <button className={styles.colonyBtn} onClick={handleClick}>
+          Add To Colony <img src={planet} />
+        </button>
+      </p>
+    </div>
   );
 }
 

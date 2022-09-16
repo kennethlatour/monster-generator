@@ -1,0 +1,35 @@
+.modal {
+  position: absolute;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  min-width: 500px;
+  width: 40%;
+  height: 50px;
+
+  background: rgba(205, 87, 235, 0.623);
+  color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animate {
+  animation-name: fadeOut;
+  animation-timing-function: ease-out;
+  animation-duration: 200ms;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
