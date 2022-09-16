@@ -4,16 +4,22 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
-      <button>
-        <Link to="/monster">Monster Randomizer</Link>
+      <button style={{ padding: "10px" }}>
+        <Link style={{ textDecoration: "none" }} to="/monster">
+          Monster Randomizer
+        </Link>
       </button>
 
-      <button>
-        <Link to="/colony">Colony</Link>
+      <button style={{ padding: "10px" }}>
+        <Link style={{ textDecoration: "none" }} to="/colony">
+          Colony
+        </Link>
       </button>
 
-      <button>
-        <Link to="/about">About</Link>
+      <button style={{ padding: "10px" }}>
+        <Link style={{ textDecoration: "none" }} to="/about">
+          About
+        </Link>
       </button>
     </div>
   );
