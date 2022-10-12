@@ -22,7 +22,7 @@ const Modal = ({ visible, onComplete, children, className }) => {
 
       return () => clearTimeout(timer);
     }
-  }, [visible]);
+  }, [visibleState]);
 
   return (
     <>

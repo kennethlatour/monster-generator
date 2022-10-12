@@ -29,7 +29,7 @@ function MyMonster({ monster, exile }) {
 
   return (
     <div className={styles.container}>
-      <img src={monster.image} />
+      <img src={monster.image} alt = "Monster" />
       <div className={styles.info}>
         <p>{monster.name}</p>
         <button onClick={docile}>

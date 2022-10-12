@@ -21,10 +21,10 @@ function Monster({ monster, colonyPost }) {
       <Modal onComplete={() => setShowModal(false)} visible={showModal}>
         Monster Added
       </Modal>
-      <img className={styles.monsterimg} src={monster.image} />
+      <img className={styles.monsterimg} src={monster.image} alt= "monster style"/>
       <p>
         <button className={styles.colonyBtn} onClick={handleClick}>
-          Add To Colony <img src={planet} />
+          Add To Colony <img src={planet} alt = "planets"/>
         </button>
       </p>
     </div>

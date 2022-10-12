@@ -42,6 +42,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "json-server --watch db.json -p 3000"
+    "server": "json-server --watch db.json -p 8000"
   }
 }

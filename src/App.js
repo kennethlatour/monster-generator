@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Monster from "./components/Monster";
 import MonsterColony from "./components/MonsterColony";
 import GenerateButton from "./components/GenerateButton";
-import { Switch, Route, useHistory } from "react-router-dom";
+import { Switch, Route} from "react-router-dom";
 import "./styles/global.css";
 
 function App() {
